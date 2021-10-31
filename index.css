@@ -1,56 +1,76 @@
-<style>
-	h1 {
-		font-family: 'Montserrat', serif;
-	}
-	h2 {
-		font-family: 'Montserrat', serif;
-		color: black;
-	}
-	h3 {
-		font-family: 'Montserrat', serif;
-		/*font-weight: bold;*/
-		color: black;
-	}
-	h4 {
-		font-family: 'Open Sans', serif;
-		line-height: 30px;
-	}
-	p.subhed {
-		color: #696969;
-    	font-style: italic;
-    	font-size: 18px;
-    	font-family: 'Open Sans', serif;
-	}
-	p.byline {
-		color: black;
-		font-weight: bold;
-		font-family: 'Open Sans', serif;
-		font-size: 16px;
-		margin-bottom: 30px;
-	}
-	p {
-		color: #696969;
-		font-size: 16px;
-		font-family: 'Open Sans', serif;
-	}
-	#intro {
-		background-color: #b4b4b4;
-		color: #D16014;
-		text-align: center;
-		margin-bottom: 20px;
+<!-- This is an html page for the 3:45 section of JNL221.
+This page will be used at times for explaining homework instructions
+or displaying student work. -->
 
-	}
-	.content {
-		background-color: white;
-		border-top: 2px solid black;
-		margin-bottom: 40px;
-		color: #D16014;
-	}
-	#end {
-		background-color: #b4b4b4;
-		color: #D16014;
-		text-align:	center;
-		/*margin-bottom: 50px;*/
-	}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Foundations Of Data And Digital Journalism</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="index.css" />
+</head>
 
-</style>
+<!-- DO NOT EDIT ANYTHING IN THE HEAD TAG ^ -->
+
+<body>
+	
+	<!-- Intro row -->
+	<div id="intro" class="col-sm-12">
+		<h1> Foundations Of Data And Digital Journalism, 12:45</h1>
+		<h4> Syracuse University, Fall 2021</h4>
+	</div>
+
+	<div class="container content">
+		<h2>Homework part one: Creative dataviz critique</h2>
+
+		<p>Instructions: Choose one of the following creative dataviz stories, and carefully consume it, both text and creative elements. Make sure you spend time fully with each element. Then, critique it. Below the instructions, you should write the name of the project inside an h3 tag, and write at least three paragraphs and insert them below inside three separate p tags. Don't forget to close your tags!</p>
+		<h3>Choose from one of these projects:</h3>
+		<ul>
+			<li><a href="https://pudding.cool/2018/08/pockets/" target="_blank">Women's pockets</a>, The Pudding</li>
+			<li><a href="https://graphics.reuters.com/INDIA-POLLUTION/01008173281/index.html" target="_blank">Pollution in Delhi</a>, Reuters Graphics</li>
+			<li><a href="https://egyptbuildingcollapses.org/#" target="_blank">Building collapses in Egypt</a>, <a href="https://alternative-narratives-vis-archive.com/case_studies/egypt-building-collapses" target="_blank">Tactical Technology Collective</a></li>
+			<li><a href="https://www.bbc.co.uk/news/resources/idt-7464500a-6368-4029-aa41-ab94e0ee09fb" target="_blank">COVID deaths through sound</a>, BBC</li>
+		</ul>
+		<p>Answer <i>at least</i> the following questions, and be thorough and detailed in your responses: Where is the data from in this project, and what dataviz/graphics/visual elements are used? What do you think is the key message of this dataviz project? Describe the different ways in which this dataviz project is effective at conveying its key message. Mona Chalabi talks about her dataviz projects being visceral, or having to do with deep, internal feelings rather than the intellect, in order to be memorable -- in what ways do you feel this dataviz project was visceral?</p>
+
+		<h3>Pollution in Delhi, Reuters Graphics<h3>
+		<p> The photos in this project are from a camera that is located on the Parsvnath Capital Towers building in Delhi, India. The air pollution data in this project was recorded by the nearby Central Pollution Control Board air quality monitoring station, which measured air particulate matter as a method of quantifying air pollution.<p> 
+
+		<p> There are several visual elements used in this piece. First, the article is accompanied by a series of photos that give the reader an idea of the amount of smog in Delhi on any given day. The article also has a histogram showing air particulate matter that can be related to a picture, which allows the reader to draw their own conclusions and see for themselves the extremity of the city's pollution problems. Lastly, the article has a range plot chart which displays the level of pollution in Delhi compared to other Indian locations, which gives the reader context for the issue that they might not already have. Overall, this piece does a fantastic job of showing and not telling. <p>
+
+		<p> The key message of this dataviz project is to convey a commonly discussed topic in a new medium. This piece is effective because it uses unique storytelling methods, like relating photographs to air pollution level charts, which is intriguing and educational.<p>
+
+		<p> This piece was visceral because it gave a visual aid to an issue that I usually see described in words. Such rampant pollution is easy to overlook when you don't have a good visual idea of what that looks like in a city of millions of people. The accompanying data let the reader leisurely scroll through and explore the findings at their own pace, drawing their own conclusions. By the end of this piece, I was even more inquisitive about a topic that previously rarely crossed my mind, and I believe that is a sign of a good article.<p> 
+
+
+
+
+		<h2>Homework part two: Datawrapper chart</h2>
+
+		<p>Instructions: Choose one of the following datasets -- one of which we've used in the past -- to create one, fully complete Datawrapper chart or map, that reflects at least one finding from this dataset. Insert it below the instructions inside an iframe tag.</p>
+		<p>Attributes of a fully complete Datawrapper chart: Hed, subhed, data source, alt text, legend, byline, any notes about data limitations or details, any annotations that you feel help convey your finding(s). Remember: your finding should be reflected in either your hed or subhed, and an explanation of your data (where it's from, what it collects, etc.) should be reflected in the other. You must choose colors from a color palette generator; you may not use Datawrapper's default colors.</p>
+		<h3>Choose from one of these datasets:</h3>
+		<ul>
+			<li><a href="https://docs.google.com/spreadsheets/d/1kAtkOoa15IdWrdgNc-3rSP6in--SX8m-/edit?rtpof=true" target="_blank">Active duty troops</a>, Stimson Center</li>
+			<li><a href="https://docs.google.com/spreadsheets/d/1RZ235-x4KYuyA7xQX-flOP-N5uvweIMh9qPh4FN2fLo/edit#gid=0" target="_blank">NY data</a>, Mapping The Gay Guide</li>
+		</ul>
+
+		<iframe src="<iframe title="United States active duty troops abroad (2020)" aria-label="Map" id="datawrapper-chart-mfKmu" src="https://datawrapper.dwcdn.net/mfKmu/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="411"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>"></iframe>
+  
+  		
+  		<p>When you're done with both parts of this homework, return to Blackboard assignment step #4, and follow the instructions to get this on your Github page.</p>
+
+
+  	<!-- About Row -->
+	<div class="row">
+		<div id="end" class="col-sm-12">
+			<h4>this page was published by github pages. fonts: montserrat, open sans.</h4>
+		</div>
+	</div>
+
+</body>
+</html>
